@@ -1,0 +1,1 @@
+# railsschool-analytics-training
