@@ -3,6 +3,7 @@
 ## Getting Started
 * `bundle install`
 * `rails s`
+
 ## Resources
 * https://github.com/iridakos/todo
 * https://segment.com/docs/sources/server/ruby/
