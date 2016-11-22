@@ -17,5 +17,6 @@ class ApplicationController < ActionController::Base
 
   def set_analytics_uuid_on_cookies
     cookies[:analytics_uuid] ||= { value: SegmentService.generate_analytics_uuid, expires: 2.years.from_now }
+    @analytics_uuid = cookies[:analytics_uuid]
   end
 end
